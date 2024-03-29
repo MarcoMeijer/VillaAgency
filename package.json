@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "vite": "^5.2.7",
+    "vite": "^4",
     "vite-plugin-require": "^1.1.14"
   },
   "scripts": {
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@mojojoejo/vite-plugin-purgecss": "^1.1.0",
     "vite-plugin-minify": "^1.5.2"
   }
 }
