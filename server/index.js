@@ -6,9 +6,10 @@ const port = 3000;
 
 app.use(compression());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('../dist'));
+app.use(express.static('../dist/assets'));
 app.use(express.static('../'));
 app.set('etag', 'strong');
-
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
